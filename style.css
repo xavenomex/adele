@@ -1,0 +1,163 @@
+body {
+background: #c7b39b url(1.jpg);
+     color: #000;
+}
+
+#header {
+
+     width: 100%;
+     height: 60px;
+ font-family: 'Playfair Display SC', serif;
+
+}
+ 
+#container {
+     margin: auto auto;
+     text-align: center;
+     width: 100%;
+     height: 400px;
+}
+ 
+#navigation {
+     width: 100%;
+     height: 35px;
+font-family: 'Old Standard TT', serif;
+}
+ 
+#sidebar {
+/*     background: #ffd1dc; */
+background: #c7b39b url(2.jpg);
+font-family: 'Old Standard TT', serif;
+     float: left;
+     width: 23%;
+     height: 118%;
+border-left:3px solid #fbe4ff;
+border-right:3px solid #fbe4ff;
+border-top:3px solid #fbe4ff;
+border-bottom:3px solid #fbe4ff;
+	box-shadow: 0 20px 20px -20px #333;
+}
+
+#content {
+/*     background: #ffd1dc; */
+background: #c7b39b url(2.jpg);
+font-family: 'Old Standard TT', serif;
+     float: right;
+     width: 75%;
+     height: 118%;
+border-left:3px solid #fbe4ff;
+border-right:3px solid #fbe4ff;
+border-top:3px solid #fbe4ff;
+border-bottom:3px solid #fbe4ff;
+	box-shadow: 0 20px 20px -20px #333;
+}
+ 
+#clear {
+     clear: both;
+}
+ 
+#footer {
+font-family: 'Old Standard TT', serif;
+	width: 100%;
+	height: 10%;
+}
+
+<!-- таблицы -->
+
+table {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+border-radius: 10px;
+border-spacing: 0;
+text-align: center;
+}
+th {
+background: #e393b0;
+color: white;
+text-shadow: 0 1px 1px #2D2020;
+padding: 10px 20px;
+}
+th, td {
+border-style: solid;
+border-width: 0 1px 1px 0;
+border-color: white;
+}
+th:first-child, td:first-child {
+text-align: left;
+}
+th:first-child {
+border-top-left-radius: 10px;
+}
+th:last-child {
+border-top-right-radius: 10px;
+border-right: none;
+}
+td {
+padding: 10px 20px;
+background: #ffd1dc;
+}
+tr:last-child td:first-child {
+border-radius: 0 0 0 10px;
+}
+tr:last-child td:last-child {
+border-radius: 0 0 10px 0;
+}
+tr td:last-child {
+border-right: none;
+}
+
+<!-- формы -->
+
+.call{
+	width: 100%;
+	max-width: 350px;
+font-family: 'Old Standard TT', serif;
+}
+.form-call{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.form-call div{
+	padding: 15px 0;
+}
+.send-mail{
+	box-sizing: border-box;
+	width: 100%;
+}
+.form-call label,.form-call input{
+display: block;
+width: 100%;
+box-sizing: border-box;
+}
+.form-call label{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+.form-call input{
+	padding: 10px 15px;
+	margin-top: 10px;
+}
+.form-call label span{
+	color: red;
+}
+.form-call .send-mail{
+	padding: 15px;
+	margin-top: 10px;
+background: none;
+border: none;
+text-transform: uppercase;
+color: #fff;
+font-family: 'Old Standard TT', serif;
+	font-weight: bold;
+	background-color: #d86b93;
+	cursor: pointer;
+	border: 3px #d86b93 solid;
+	border-radius: 5px;
+}
+.form-call .send-mail:hover{
+	color: #d86b93;
+	background-color: #fff;
+}
